@@ -1,0 +1,10 @@
+(ns chirimen-flux.const)
+
+(def LED_PIN 198)
+
+(def SERVO_PORT 0)
+(def SERVO_SLAVE_ADDRESS 0x40)
+(def SERVO_PORT_START 8)
+(def SERVO_PORT_INTERVAL 4)
+(def SERVO_FREQ 61)
+(def SERVO_TICK_SEC (/ (/ 1 SERVO_FREQ) 4096))
